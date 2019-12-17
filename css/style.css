@@ -15,8 +15,17 @@ html, body {
     color: #1ebba3;
 }
 /*--- Nav Scrolling Offset --*/
+.offset:before {
+    content: "";
+    height: 4rem;
+    display: block;
+    margin-top: -4rem;
+}
 
 /*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+padding: 1rem;
+}
 
 
 /*============= NAVIGATION =============*/
@@ -174,6 +183,31 @@ button, a, a.btn,
     color: #ffffff;
 }
 
+h3.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1EBBA3;
+    margin: 0 auto 2rem;
+}
+
+.feature span {
+    color: #1EBBA3;
+    margin-bottom: .6rem;
+}
+
+.feature h3 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    padding-bottom: .4rem;
+}
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
