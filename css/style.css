@@ -153,13 +153,26 @@ button, a, a.btn,
     opacity: .8;
 }
 
-
-/*-- Landing Page Caption --*/
-
-/*-- Bouncing Down Arrow --*/
-
-
 /*============= FEATURES SECTION =============*/
+
+.btn-sm {
+    border-width: medium;
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin: 1rem;
+}
+
+.btn-nuno {
+    background-color: #1EBBA3;
+    color: #ffffff;
+}
+
+.btn-nuno:hover {
+    background-color: #189582;
+    color: #ffffff;
+}
 
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
