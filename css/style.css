@@ -21,8 +21,55 @@ html, body {
 
 /*============= NAVIGATION =============*/
 
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    transition: background-color .5s ease;
+}
+
+.navbar-nav li {
+    padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+.custom-toggler-icon {
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.navbar.solid,
+.navbar.solid-toggle {
+    background: rgba(0, 0, 0, .7);
+    transition: background-color 1s ease 0s;
+}
 
 /*-- Remove Button Outline --*/
+
+button:focus, a:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+}
+
+button, a, a.btn {
+    transition: all .6s ease;
+}
 
 
 /*============= LANDING PAGE =============*/
