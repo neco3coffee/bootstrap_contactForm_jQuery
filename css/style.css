@@ -251,6 +251,14 @@ h3.heading {
 }
 
 /*============= PORTFOLIO SECTION =============*/
+.portfolio-item img:hover {
+    transform: scale(1.3);
+    cursor: zoom-in;
+}
+
+.portfolio-item img {
+    transition: transform .4s ease;
+}
 
 
 /*============= PRICING SECTION =============*/

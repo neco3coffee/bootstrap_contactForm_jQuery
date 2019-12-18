@@ -44,6 +44,13 @@ $(document).ready(function () {
 
 
 /*========== LIGHTBOX IMAGE GALLERY ==========*/
+$(document).ready(function () {
+    lightbox.option({
+        'resizeDuration': 600,
+        'wrapAround': true,
+        'imageFadeDuration': 500
+    });
+});
 
 
 /*========== MEET THE TEAM CAROUSEL ==========*/
