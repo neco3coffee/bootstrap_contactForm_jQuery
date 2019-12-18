@@ -12,7 +12,7 @@ html, body {
 }
 
 .text-nuno {
-    color: #1ebba3;
+    color: #1EBBA3;
 }
 /*--- Nav Scrolling Offset --*/
 .offset:before {
@@ -54,7 +54,7 @@ padding: 1rem;
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-    color: #1ebba3;
+    color: #1EBBA3;
 }
 
 .custom-toggler-icon {
@@ -262,7 +262,40 @@ h3.heading {
 
 
 /*============= PRICING SECTION =============*/
+.pricing-column {
+    background-color: #ffffff;
+    height: 100%;
+    padding: 1.6rem;
+    border-top: .25rem solid #1EBBA3;
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .7s ease;
+    position: relative;
+    overflow: hidden;
+}
 
+.pricing-column:hover {
+    transform: scale(1.1);
+}
+
+.pricing-column h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.ribbon {
+    background-color: #6c757d;
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+    height: 2rem;
+    width: 10rem;
+    padding-top: .4rem;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -2.8rem;
+    top: 1.5rem;
+    box-shadow: 0 0 .2rem rgba(0, 0, 0, .25);
+}
 
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
