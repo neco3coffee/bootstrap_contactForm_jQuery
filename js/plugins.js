@@ -77,7 +77,12 @@ $(document).ready(function(){ //when document(DOM) loads completely
 });
 
 /*========== SKILLS COUNTER ==========*/
-
+$(document).ready(function () {
+    $('.counter').counterUp({
+        duration: 3000,
+        delay: 10,
+    });
+});
 
 /*========== CLIENTS CAROUSEL ==========*/
 
