@@ -391,6 +391,29 @@ blockquote .svg-inline--fa {
 
 
 /*============= CONTACT SECTION =============*/
+.footer {
+    background: url('../img/footer/footer.jpg') no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    /* background-color: #505962; */
+}
+.row.outer {
+    background-color: rgba(57, 63, 70, .85);
+    padding: 1rem 2rem 3rem;
+}
+.footer img {
+    height: 2rem;
+    margin: 1.5rem 0;
+}
+.footer a,
+.footer ul.social li a {
+    color: #ffffff;
+
+}
+.footer ul.social li a:hover {
+    color: #1EBBA3;
+
+}
 
 
 /*--- Contact Form --*/
