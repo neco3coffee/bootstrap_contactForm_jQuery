@@ -17,11 +17,11 @@ $fromEmail = $_POST['email'];
 $fromName = $_POST['name'];
 
 // an email address & name that will receive the email with the output of the form
-$sendToEmail = 'name@mydomain.com';
-$sendToName = 'Name';
+$sendToEmail = 'joe@sitejacket.co.uk';
+$sendToName = 'Joe';
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'New message from Nuno Theme';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email

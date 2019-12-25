@@ -215,7 +215,6 @@ h3.heading {
 .fixed {
     position: relative;
     width: 100%;
-    display: table;
 }
 
 .fixed-wrap {
@@ -446,17 +445,96 @@ blockquote .svg-inline--fa {
 
 /*============= TOP SCROLL =============*/
 
+a.top-scroll {
+    right: 1.2rem;
+    bottom: 1.2rem;
+    position: fixed;
+    opacity: .3;
+    z-index: 1000;
+    display: none;
+}
+a.top-scroll:hover {
+    opacity: .5;
+}
+.top-scroll .svg-inline--fa {
+    background-color: #ffffff;
+    color: #53595f;
+    font-size: 3rem;
+    height: 1.7rem;
+}
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 992px (lg) */
-
+@media (max-width: 991.98px) {
+    .caption h1 {
+        font-size: 3.5rem;
+        letter-spacing: .2rem;
+        padding-bottom: .8rem;
+    }
+    
+    .caption h3 {
+        font-size: 2.2rem;
+        padding-bottom: 1.7rem;
+    }
+    
+    .caption .btn-lg {
+        padding: .7rem 1.2rem;
+        font-size: 1rem;
+    }
+    .clients img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
 
 /* Devices under 768px (md) */
-
+@media (max-width: 767.98px) {
+    .caption h1 {
+        font-size: 2.7rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }    
+    .caption h3 {
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem;
+    }    
+    .caption .btn-lg {
+        padding: .6rem 1.1rem;
+    }
+    #features h1 {
+        font-size: 2rem;
+    }
+    .fixed-dark {
+        background-image: url('../img/fixed/apple-mobile.jpg');
+    }
+    .fixed-light {
+        background-image: url('../img/fixed/office-mobile.jpg');
+    }
+    .footer {
+        background: url('../img/footer/footer-mobile.jpg') no-repeat;
+    }
+    .top-scroll {
+        display: none!important;
+    }
+}
 
 /* Devices under 576px (sm) */
-
+@media (max-width: 575.98px) {
+    .caption h1 {
+        font-size: 1.9rem;
+        letter-spacing: .1rem;
+        padding-bottom: .4rem;
+    }    
+    .caption h3 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }    
+    .caption .btn-lg {
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
