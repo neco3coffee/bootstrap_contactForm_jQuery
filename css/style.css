@@ -69,13 +69,11 @@ padding: 1rem;
 }
 
 /*-- Remove Button Outline --*/
-
 button:focus, a:focus, a.btn:focus {
     outline: 0;
     -webkit-appearance: none;
     box-shadow: none;
 }
-
 button, a, a.btn,
 .svg-inline--fa {
     transition: all .6s ease;
@@ -152,13 +150,13 @@ button, a, a.btn,
     -webkit-animation: bounce 2s infinite;
 }
 
-.down-arrow .fa-angle-down {
+.down-arrow .svg-inline--fa {
     color: #ffffff;
     font-size: 2.2rem;
     opacity: .3;
 }
 
-.down-arrow .fa-angle-down:hover {
+.down-arrow .svg-inline--fa:hover {
     opacity: .8;
 }
 
@@ -452,16 +450,16 @@ a.top-scroll {
     opacity: .3;
     z-index: 1000;
     display: none;
-}
-a.top-scroll:hover {
+ }
+ a.top-scroll:hover {
     opacity: .5;
-}
-.top-scroll .svg-inline--fa {
-    background-color: #ffffff;
+ }
+ .top-scroll .svg-inline--fa {
+    background: #ffffff;
     color: #53595f;
     font-size: 3rem;
     height: 1.7rem;
-}
+ }
 
 /*============= MEDIA QUERIES =============*/
 
